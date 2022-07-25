@@ -1,0 +1,90 @@
+*{
+
+margin: 0px;
+
+padding: 0px;
+}
+
+
+/*CSS Variables*/
+:root{
+    --navbar-hight:59px;
+
+}
+
+/*Navigation Bar*/
+
+#navid{
+    display: flex;
+    align-items:center;
+}
+
+#navid::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+/*Navigation Bar : logo and img */
+#logo{
+    margin: 11px 30px;
+}
+
+#logo img{
+    height: 59px;
+    margin: 3px 6px;
+}
+
+/* Navigation Bar : List Styling */
+
+#navid{
+    position: relative;
+}
+
+#navid ul{
+    display: flex;
+}
+
+#navid ul li{
+    /*color white */
+    list-style: none;
+    font-size: 1.3rem;
+
+}
+#navid ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border: 20px;
+    text-decoration: none;
+}
+
+
+#navid ul li a:hover{
+    color:black;
+    background-color: rgb(255, 255, 255);
+}
+
+/*home section*/
+/* #Home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;  
+} */
+
+.h2{
+    /* content: ""; */
+    /* position: absolute; */
+    /* background: url('/background.jpg'); */
+    height: 100%;
+    width: 100%;
+    /* z-index: -1; */
+    opacity: 0.89;
+
+}

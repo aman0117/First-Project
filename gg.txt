@@ -1,0 +1,10 @@
+ @media (max-width: 1437px) { 
+ *{ 
+     background-color: royalblue; 
+ }
+ .sidebar{ 
+     transform: translate(-124px 0px);
+     position:absolute;
+    
+ } 
+  } 
